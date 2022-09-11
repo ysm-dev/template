@@ -1,7 +1,7 @@
 {
-  "name": "dynamic-island",
+  "name": "template",
   "version": "1.0.0",
-  "description": "Design iPhone 14 Dynamic Island",
+  "description": "Personal tech stack template when I start my new project.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

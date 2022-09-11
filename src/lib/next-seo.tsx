@@ -2,7 +2,7 @@ import { DefaultSeoProps } from 'next-seo'
 
 export const title = 'Title'
 
-export const URL = 'https://test.com'
+export const URL = 'https://userwebsitename.com'
 
 export const SEO: DefaultSeoProps = {
   titleTemplate: `%s | ${title}`,
