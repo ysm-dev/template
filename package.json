@@ -20,11 +20,11 @@
     "styles": "link:./styles"
   },
   "devDependencies": {
-    "@types/node": "^18.7.16",
-    "@types/react": "^18.0.18",
+    "@types/node": "^18.7.18",
+    "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
-    "autoprefixer": "^10.4.8",
-    "eslint": "8.23.0",
+    "autoprefixer": "^10.4.11",
+    "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.4.16",
