@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "components": "link:./src/pages/components",
-    "next": "^12.3.0",
+    "next": "^12.3.1",
     "next-seo": "^5.5.0",
     "pages": "link:./pages",
     "react": "^18.2.0",
@@ -21,11 +21,11 @@
   },
   "devDependencies": {
     "@types/node": "^18.7.18",
-    "@types/react": "^18.0.20",
+    "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "autoprefixer": "^10.4.11",
+    "autoprefixer": "^10.4.12",
     "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0",
+    "eslint-config-next": "12.3.1",
     "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.4.16",
     "prettier": "^2.7.1",
