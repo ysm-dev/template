@@ -4,11 +4,13 @@ specifiers:
   '@types/node': ^18.8.5
   '@types/react': ^18.0.21
   '@types/react-dom': ^18.0.6
+  api: link:./src/api
   autoprefixer: ^10.4.12
   components: link:./src/pages/components
   eslint: 8.25.0
   eslint-config-next: 12.3.1
   eslint-config-prettier: ^8.5.0
+  lib: link:./src/lib
   next: ^12.3.1
   next-seo: ^5.5.0
   pages: link:./pages
@@ -23,7 +25,9 @@ specifiers:
   typescript: ^4.8.4
 
 dependencies:
+  api: link:src/api
   components: link:src/pages/components
+  lib: link:src/lib
   next: 12.3.1_biqbaboplfbrettd7655fr4n2y
   next-seo: 5.5.0_azq6kxkn3od7qdylwkyksrwopy
   pages: link:pages

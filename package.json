@@ -11,12 +11,14 @@
   "license": "MIT",
   "dependencies": {
     "components": "link:./src/pages/components",
+    "api": "link:./src/api",
     "next": "^12.3.1",
     "next-seo": "^5.5.0",
     "pages": "link:./pages",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "src": "link:./src",
+    "lib": "link:./src/lib",
     "styles": "link:./styles"
   },
   "devDependencies": {
