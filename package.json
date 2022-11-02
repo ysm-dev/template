@@ -1,33 +1,32 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "description": "Personal tech stack template when I start my new project.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "lint": "next lint"
   },
-  "author": "ysm (i@ysm.dev)",
   "license": "MIT",
   "dependencies": {
     "components": "link:./src/pages/components",
     "api": "link:./src/api",
-    "next": "^13.0.0",
-    "next-seo": "^5.11.1",
+    "next": "^13.0.1",
+    "next-seo": "^5.13.0",
     "pages": "link:./pages",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "src": "link:./src",
     "lib": "link:./src/lib",
+    "utils": "link:./src/utils",
     "styles": "link:./styles"
   },
   "devDependencies": {
-    "@types/node": "^18.11.7",
+    "@types/node": "^18.11.9",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "autoprefixer": "^10.4.13",
     "eslint": "8.26.0",
-    "eslint-config-next": "13.0.0",
+    "eslint-config-next": "13.0.1",
     "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.4.18",
     "prettier": "^2.7.1",
