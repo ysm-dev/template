@@ -23,6 +23,7 @@ specifiers:
   styles: link:./styles
   tailwindcss: ^3.2.1
   typescript: ^4.8.4
+  utils: link:./src/utils
 
 dependencies:
   api: link:src/api
@@ -35,6 +36,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   src: link:src
   styles: link:styles
+  utils: link:src/utils
 
 devDependencies:
   '@types/node': 18.11.9
