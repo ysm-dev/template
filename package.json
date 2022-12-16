@@ -10,7 +10,7 @@
   "dependencies": {
     "components": "link:./src/pages/components",
     "api": "link:./src/api",
-    "next": "^13.0.6",
+    "next": "^13.0.7",
     "next-seo": "^5.15.0",
     "pages": "link:./pages",
     "react": "^18.2.0",
@@ -21,14 +21,14 @@
     "styles": "link:./styles"
   },
   "devDependencies": {
-    "@types/node": "^18.11.12",
+    "@types/node": "^18.11.15",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "autoprefixer": "^10.4.13",
     "eslint": "8.29.0",
-    "eslint-config-next": "13.0.6",
+    "eslint-config-next": "13.0.7",
     "eslint-config-prettier": "^8.5.0",
-    "postcss": "^8.4.19",
+    "postcss": "^8.4.20",
     "prettier": "^2.8.1",
     "prettier-plugin-tailwindcss": "^0.2.1",
     "tailwindcss": "^3.2.4",
