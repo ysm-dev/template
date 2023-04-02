@@ -24,19 +24,19 @@
     "utils": "link:./src/utils"
   },
   "devDependencies": {
-    "@types/node": "^18.15.6",
-    "@types/react": "^18.0.28",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",
     "autoprefixer": "^10.4.14",
-    "eslint": "8.36.0",
+    "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "eslint-config-prettier": "^8.8.0",
-    "npm-check-updates": "^16.8.0",
+    "npm-check-updates": "^16.9.0",
     "postcss": "^8.4.21",
-    "prettier": "^2.8.6",
-    "prettier-plugin-tailwindcss": "^0.2.5",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.6",
     "rimraf": "4",
-    "tailwindcss": "^3.2.7",
-    "typescript": "5.0.2"
+    "tailwindcss": "^3.3.1",
+    "typescript": "5.0.3"
   }
 }
