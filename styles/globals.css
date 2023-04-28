@@ -12,6 +12,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: keep-all;
+  color: white;
 }
 
 html,
@@ -22,5 +23,6 @@ body,
 }
 
 *::selection {
-  color: #000;
+  background: #f81ce5;
+  color: white;
 }

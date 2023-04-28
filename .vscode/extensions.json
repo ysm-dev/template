@@ -1,8 +1,7 @@
 {
   "recommendations": [
-    "styled-components.vscode-styled-components",
+    "bradlc.vscode-tailwindcss",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint"
-  ],
-  "unwantedRecommendations": []
+  ]
 }
