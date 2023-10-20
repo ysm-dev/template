@@ -13,22 +13,22 @@
     "pkg:bump": "ncu -u"
   },
   "dependencies": {
-    "next": "13.5.4",
+    "next": "13.5.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "20.8.5",
-    "@types/react": "18.2.28",
-    "@types/react-dom": "18.2.13",
+    "@types/node": "20.8.7",
+    "@types/react": "18.2.30",
+    "@types/react-dom": "18.2.14",
     "autoprefixer": "10.4.16",
     "eslint": "8.51.0",
-    "eslint-config-next": "13.5.4",
+    "eslint-config-next": "13.5.6",
     "eslint-config-prettier": "9.0.0",
     "npm-check-updates": "16.14.6",
     "postcss": "8.4.31",
     "prettier": "3.0.3",
-    "prettier-plugin-tailwindcss": "0.5.5",
+    "prettier-plugin-tailwindcss": "0.5.6",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   }
