@@ -13,17 +13,17 @@
     "pkg:bump": "ncu -u"
   },
   "dependencies": {
-    "next": "14.0.0",
+    "next": "14.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "20.8.9",
-    "@types/react": "18.2.33",
+    "@types/node": "20.8.10",
+    "@types/react": "18.2.34",
     "@types/react-dom": "18.2.14",
     "autoprefixer": "10.4.16",
     "eslint": "8.52.0",
-    "eslint-config-next": "14.0.0",
+    "eslint-config-next": "14.0.1",
     "eslint-config-prettier": "9.0.0",
     "npm-check-updates": "16.14.6",
     "postcss": "8.4.31",
