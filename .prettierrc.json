@@ -1,11 +1,5 @@
 {
-  "trailingComma": "all",
-  "tabWidth": 2,
+  "plugins": ["@vercel/style-guide/prettier", "prettier-plugin-tailwindcss"],
   "semi": false,
-  "singleQuote": true,
-  "endOfLine": "auto",
-  "jsxSingleQuote": false,
-  "printWidth": 80,
-  "useTabs": false,
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "singleQuote": true
 }

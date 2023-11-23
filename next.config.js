@@ -1,8 +1,2 @@
-/**
- * @type {import('next').NextConfig}
- */
-module.exports = {
-  experimental: {
-    typedRoutes: true,
-  },
-}
+const jiti = require('jiti')(__filename)
+module.exports = jiti('./next.config.ts').default
