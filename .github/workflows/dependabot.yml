@@ -3,9 +3,9 @@ name: Dependabot
 on:
   schedule:
     # Every weekday at 10pm UTC
-    # - cron: '0 22 * * 0-4'
+    - cron: '0 22 * * 0-4'
     # Every Friday
-    - cron: '0 0 * * 5'
+    # - cron: '0 0 * * 5'
   workflow_dispatch:
 
 jobs:
