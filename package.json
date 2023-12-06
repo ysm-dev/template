@@ -37,9 +37,9 @@
     "npm-check-updates": "16.14.11",
     "postcss": "8.4.32",
     "prettier": "3.1.0",
-    "prettier-plugin-tailwindcss": "0.5.8",
+    "prettier-plugin-tailwindcss": "0.5.9",
     "shadcn-ui": "0.4.1",
     "tailwindcss": "3.3.6",
-    "typescript": "5.3.2"
+    "typescript": "5.3.3"
   }
 }
