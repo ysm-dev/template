@@ -9,8 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "clean": "rm -rf node_modules .next out",
-    "pkg:check": "ncu",
-    "pkg:bump": "ncu -u",
+    "check": "ncu",
+    "bump": "ncu -u",
     "add:component": "shadcn-ui add"
   },
   "dependencies": {
