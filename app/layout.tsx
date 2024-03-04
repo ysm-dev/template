@@ -1,4 +1,5 @@
 import 'app/globals.css'
+
 import { type ReactNode } from 'react'
 
 type Props = {
