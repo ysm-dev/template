@@ -25,12 +25,12 @@
     "tailwindcss-animate": "1.0.7"
   },
   "devDependencies": {
-    "@types/node": "20.11.20",
-    "@types/react": "18.2.57",
+    "@types/node": "20.11.24",
+    "@types/react": "18.2.61",
     "@types/react-dom": "18.2.19",
     "@vercel/style-guide": "5.2.0",
     "autoprefixer": "10.4.17",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "eslint-config-next": "14.1.0",
     "eslint-config-prettier": "9.1.0",
     "jiti": "1.21.0",
