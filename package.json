@@ -4,7 +4,7 @@
     "node": ">= 20"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -25,19 +25,15 @@
     "tailwindcss-animate": "1.0.7"
   },
   "devDependencies": {
-    "@types/node": "20.12.4",
+    "@biomejs/biome": "1.6.4",
+    "@types/node": "20.12.5",
     "@types/react": "18.2.74",
     "@types/react-dom": "18.2.24",
     "@vercel/style-guide": "6.0.0",
     "autoprefixer": "10.4.19",
-    "eslint": "8.57.0",
-    "eslint-config-next": "14.1.4",
-    "eslint-config-prettier": "9.1.0",
     "jiti": "1.21.0",
     "npm-check-updates": "16.14.18",
     "postcss": "8.4.38",
-    "prettier": "3.2.5",
-    "prettier-plugin-tailwindcss": "0.5.13",
     "shadcn-ui": "0.8.0",
     "tailwindcss": "3.4.3",
     "typescript": "5.4.4"

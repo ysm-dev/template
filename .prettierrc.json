@@ -1,5 +1,0 @@
-{
-  "plugins": ["@vercel/style-guide/prettier", "prettier-plugin-tailwindcss"],
-  "semi": false,
-  "singleQuote": true
-}

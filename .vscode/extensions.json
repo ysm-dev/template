@@ -1,8 +1,7 @@
 {
-  "recommendations": [
-    "bradlc.vscode-tailwindcss",
-    "esbenp.prettier-vscode",
+  "recommendations": ["GitHub.copilot", "biomejs.biome"],
+  "unwantedRecommendations": [
     "dbaeumer.vscode-eslint",
-    "GitHub.copilot"
+    "esbenp.prettier-vscode"
   ]
 }
