@@ -1,4 +1,5 @@
 import "app/globals.css"
+
 import type { ReactNode } from "react"
 
 type Props = {
@@ -7,7 +8,7 @@ type Props = {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <meta
           name="viewport"
