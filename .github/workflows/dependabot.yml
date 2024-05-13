@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/setup-node@main
         with:
-          node-version: lts
+          node-version: latest
 
       - uses: actions/checkout@main
       - run: npx taze major -w -i
