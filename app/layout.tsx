@@ -1,9 +1,28 @@
 import "app/globals.css"
 
+import { HOST } from "constants/urls"
+import type { Metadata } from "next"
 import type { ReactNode } from "react"
 
 type Props = {
   children: ReactNode
+}
+
+export const generateMetadata = async (): Promise<Metadata> => {
+  const title = "Template"
+  const description = "A Next.js template"
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: `https://${HOST}`,
+      siteName: title,
+    },
+  }
 }
 
 export default function RootLayout({ children }: Props) {
