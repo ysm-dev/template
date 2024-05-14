@@ -22,9 +22,9 @@ jobs:
           node-version: latest
 
       - uses: actions/checkout@main
-      - run: npx taze major -w
-      - run: npx nypm i nypm
-      - run: npm run nypm i
+      - run: npm i -g pnpm yarn bun
+      - run: npx taze major -w -i
+      # - run: npx nypm i
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
