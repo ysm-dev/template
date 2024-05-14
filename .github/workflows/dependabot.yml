@@ -23,7 +23,8 @@ jobs:
 
       - uses: actions/checkout@main
       - run: npx taze major -w
-      - run: npx nypm i
+      - run: npx nypm i nypm
+      - run: npm run nypm i
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
