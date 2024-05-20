@@ -4,8 +4,10 @@ on:
   schedule:
     # Every weekday at 10pm UTC
     #  cron: '0 22 * * 0-4'
-    # Every Friday
-    - cron: "0 0 * * 5"
+
+    # Every 9AM on Monday KST
+    - cron: "0 0 * * 1"
+
   workflow_dispatch:
 
 jobs:

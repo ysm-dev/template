@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@master
+        uses: actions/checkout@main
+
       - uses: connor-baer/action-sync-branch@main
         with:
           branch: main
