@@ -24,8 +24,8 @@ jobs:
         with:
           node-version: latest
 
-      - run: npm i -g pnpm yarn bun
-      - run: npx taze major -w -i
+      - run: npm i -g pnpm yarn bun @antfu/ni
+      - run: nlx taze major -w -i
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
