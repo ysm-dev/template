@@ -1,7 +1,11 @@
+import { HOST } from "constants/urls"
+import { isLocal } from "utils/isLocal"
+import { isProd } from "utils/isProd"
+
 export const getBaseURL = () => {
-  if (typeof window !== "undefined") return ""
-
-  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`
-
-  return `http://localhost:${process.env.PORT ?? 3000}`
+  if (isProd()) {
+    return `https://${HOST}`
+  } else if (isLocal()) {
+    return `http://localhost:9090`
+  }
 }

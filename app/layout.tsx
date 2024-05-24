@@ -1,5 +1,6 @@
 import "app/globals.css"
 
+import { Providers } from "components/Providers"
 import { HOST } from "constants/urls"
 import type { Metadata } from "next"
 import type { ReactNode } from "react"
@@ -34,7 +35,9 @@ export default function RootLayout({ children }: Props) {
           content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }
