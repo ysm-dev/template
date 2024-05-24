@@ -11,6 +11,9 @@ import { toast } from "sonner"
 
 const config: QueryClientConfig = {
   defaultOptions: {
+    queries: {
+      retry: 0,
+    },
     mutations: {
       onError: (e: any) => {
         const msg = e.shortMessage || e.details || e.name
