@@ -20,6 +20,10 @@
       },
       "suspicious": {
         "noExplicitAny": "warn"
+      },
+      "a11y": {
+        "useKeyWithClickEvents": "off",
+        "noNoninteractiveElementToInteractiveRole": "off"
       }
     }
   },

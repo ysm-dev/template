@@ -28,7 +28,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="antialiased">
       <head>
         <meta
           name="viewport"
