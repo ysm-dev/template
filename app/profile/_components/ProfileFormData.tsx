@@ -1,4 +1,5 @@
 import { ProfileForm } from "app/profile/_components/ProfileForm"
+import { ProfileFormProvider } from "app/profile/_components/ProfileFormProvider"
 
 export const API_URL = `https://sp-taskify-api.vercel.app/5-3`
 
@@ -9,7 +10,5 @@ export async function ProfileFormData() {
     profileURL: "https://avatars.githubusercontent.com/u/47269252?v=4",
   }
 
-  console.log(defaultValues)
-
-  return <ProfileForm defaultValues={defaultValues} />
+  return <ProfileFormProvider defaultValues={defaultValues} />
 }

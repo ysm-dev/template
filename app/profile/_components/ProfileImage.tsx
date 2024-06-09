@@ -13,26 +13,6 @@ type Props = {
 }
 
 export function ProfileImage({ control }: Props) {
-  const fileRef = useRef<HTMLInputElement>(null)
-
-  // const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
-  //   const file = e.target.files?.[0]
-
-  //   if (!file) return
-
-  //   const formData = new FormData()
-
-  //   formData.append("image", file)
-
-  //   const res = await fetch(`${API_URL}/users/me/image`, {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "multipart/form-data",
-  //     },
-  //     body: formData,
-  //   })
-  // }
-
   return (
     <FormField
       control={control}

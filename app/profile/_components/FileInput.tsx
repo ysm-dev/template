@@ -1,11 +1,8 @@
 "use client"
 
-import type { FormValues } from "app/profile/_components/ProfileForm"
-import { API_URL } from "app/profile/_components/ProfileFormData"
+import type { FormValues } from "app/profile/_components/ProfileFormProvider"
 import { FormField } from "components/ui/form"
 import { Input } from "components/ui/input"
-import { UploadIcon } from "lucide-react"
-import Image from "next/image"
 import { useRef } from "react"
 import { type Control, useFormContext } from "react-hook-form"
 
@@ -13,7 +10,7 @@ type Props = {
   control: Control<FormValues>
 }
 
-export const TOKEN = ``
+export const TOKEN = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzU4MCwidGVhbUlkIjoiNS0zIiwiaWF0IjoxNzE3OTM1NjU4LCJpc3MiOiJzcC10YXNraWZ5In0.hZPl-BsGpIf-OmwvFh9YMyc8Wf4fiyknxc-YrimLrFA`
 
 export function FileInput({ control }: Props) {
   const { setValue } = useFormContext<FormValues>()
@@ -27,20 +24,6 @@ export function FileInput({ control }: Props) {
     const url = URL.createObjectURL(file)
 
     setValue("profileURL", url)
-
-    const formData = new FormData()
-
-    formData.append("image", file)
-
-    const res = await fetch(`${API_URL}/users/me/image`, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${TOKEN}`,
-      },
-      body: formData,
-    }).then<{ profileImageUrl: string }>((r) => r.json())
-
-    setValue("profileURL", res.profileImageUrl)
   }
 
   return (
@@ -54,7 +37,10 @@ export function FileInput({ control }: Props) {
           type="file"
           className="hidden"
           accept="image/*"
-          onChange={handleFileChange}
+          onChange={(e) => {
+            handleFileChange(e)
+            field.onChange(e)
+          }}
         />
       )}
     />

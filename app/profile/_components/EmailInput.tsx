@@ -1,4 +1,4 @@
-import type { FormValues } from "app/profile/_components/ProfileForm"
+import type { FormValues } from "app/profile/_components/ProfileFormProvider"
 import { FormControl, FormField, FormItem, FormLabel } from "components/ui/form"
 import { Input } from "components/ui/input"
 import type { Control } from "react-hook-form"
