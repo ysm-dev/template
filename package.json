@@ -4,7 +4,7 @@
     "node": ">= 20"
   },
   "scripts": {
-    "dev": "next dev --turbo -p 9090",
+    "dev": "next dev -p 9090",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

@@ -1,8 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
-  "organizeImports": {
-    "enabled": true
-  },
+  "$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
   "linter": {
     "enabled": true,
     "rules": {
@@ -16,12 +13,22 @@
         "noUnusedVariables": "warn"
       },
       "nursery": {
-        "useSortedClasses": "error"
+        "useSortedClasses": {
+          "level": "warn",
+          "fix": "safe",
+          "options": {
+            "attributes": ["classList"],
+            "functions": ["clsx", "cva", "tw"]
+          }
+        }
       },
       "suspicious": {
         "noExplicitAny": "warn"
       }
     }
+  },
+  "organizeImports": {
+    "enabled": true
   },
   "formatter": {
     "indentStyle": "space",
@@ -35,7 +42,7 @@
       "arrowParentheses": "always",
       "jsxQuoteStyle": "double",
       "semicolons": "asNeeded",
-      "trailingComma": "all",
+      "trailingCommas": "all",
       "quoteProperties": "asNeeded",
       "bracketSpacing": true,
       "bracketSameLine": false
