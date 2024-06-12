@@ -25,7 +25,8 @@
       "styles/*": ["styles/*"],
       "app/*": ["app/*"],
       "components/*": ["components/*"],
-      "lib/*": ["lib/*"]
+      "lib/*": ["lib/*"],
+      "hooks/*": ["hooks/*"]
     }
   },
   "include": [
