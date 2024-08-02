@@ -1,2 +1,9 @@
-const jiti = require("jiti")(__filename)
-module.exports = jiti("./next.config.ts").default
+/** @type {import('next').NextConfig} */
+const config = {
+  reactStrictMode: true,
+  compiler: {
+    // removeConsole: true,
+  },
+}
+
+export default config
