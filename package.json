@@ -1,5 +1,5 @@
 {
-  "name": "empty",
+  "name": "",
   "packageManager": "bun@1.1.34",
   "scripts": {
     "dev": "next dev -p 9090 --turbo",
