@@ -7,10 +7,10 @@ import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import type { ReactNode } from "react"
 
-const geist = Geist({
+const geistSans = Geist({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-geist",
+  variable: "--font-geist-sans",
 })
 
 const geistMono = Geist_Mono({
@@ -42,7 +42,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="en" className={cn("dark", geist.variable, geistMono.variable)}>
+    <html
+      lang="en"
+      className={cn("dark", geistSans.variable, geistMono.variable)}
+    >
       <head>
         <meta
           name="viewport"
