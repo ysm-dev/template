@@ -3,7 +3,7 @@
   "engines": {
     "node": ">= 22"
   },
-  "packageManager": "bun@1.2.18",
+  "packageManager": "bun@1.2.19",
   "scripts": {
     "dev": "next dev -p 9090 --turbo",
     "build": "next build",
@@ -32,11 +32,11 @@
   "devDependencies": {
     "@biomejs/biome": "^2.1.1",
     "@tailwindcss/postcss": "^4.1.11",
-    "@types/node": "^24.0.13",
+    "@types/node": "^24.0.15",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "postcss": "^8.5.6",
-    "shadcn": "^2.9.0",
+    "shadcn": "^2.9.2",
     "tailwindcss": "^4.1.11",
     "taze": "^19.1.0",
     "typescript": "^5.8.3"
